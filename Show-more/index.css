@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, rgb(253, 142, 161), rgb(235, 218, 218));
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.bigger-container {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.container {
+  border: 2px solid transparent;
+  background: white;
+  margin: 0.2em 0 1.5em 0;
+  padding: 0.8em;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.showButton {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 0.5em 0.9em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: rgb(54, 119, 194);
+  border: 1px solid rgb(54, 119, 194);
+  color: white;
+}
+
+.distance {
+  max-height: 1000px;
+  overflow: visible;
+}
